@@ -1,7 +1,7 @@
 /* google fonts  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 /* custom utilities */
 
 .purchase-button-color{
@@ -66,4 +66,29 @@ header{
     height: 162px;
     border-radius: 50%;
     
+}
+
+
+/* accordion customization  */
+.accordion-title{
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    /* or 140% */
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #383838;
+}
+
+.accordion-detail{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #7E848C;
 }
