@@ -1,0 +1,69 @@
+/* google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* custom utilities */
+
+.purchase-button-color{
+    background-color: #E76F51;
+}
+
+.top-small-color{
+    color: #E0E0E0;
+}
+
+.crimsony-color{
+    color:#E76F51;
+}
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common custom css  */
+
+header{
+    background-color: #264653;
+}
+
+
+/* font awesome customize   */
+
+.fa-star{
+    font-size: 22px;
+    color: #E77C40;
+}
+
+
+/* card paragraph style  */
+
+.user-about{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #6C6C6C;
+
+
+}
+
+.user-name{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+#user-3{
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    
+}
